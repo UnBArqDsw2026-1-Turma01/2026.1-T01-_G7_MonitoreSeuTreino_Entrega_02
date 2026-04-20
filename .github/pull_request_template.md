@@ -1,6 +1,11 @@
 
 Describe the big picture of your changes here to communicate to the maintainers why we should accept this pull request. If it fixes a bug or resolves a feature request, be sure to link to that issue.
 
+## Target branch
+
+- `dev` for feature, fix, refactor and documentation work
+- `main` only for PRs que saem da branch `dev`
+
 ## Types of changes
 
 What types of changes does your code introduce to <repo_name>?
@@ -17,6 +22,7 @@ _Put an `x` in the boxes that apply. You can also fill these out after creating 
 
 - [ ] I have read the CONTRIBUTING.md doc.
 - [ ] I have added necessary documentation (if appropriate).
+- [ ] I have updated the `Histórico de Versão` section in each changed Markdown file (when applicable).
 - [ ] Any dependent changes have been merged and published in downstream modules.
 
 ## Further comments

@@ -1,0 +1,41 @@
+name: PR Governance
+
+on:
+  pull_request:
+    types:
+      - opened
+      - reopened
+      - synchronize
+      - edited
+      - ready_for_review
+
+permissions:
+  contents: read
+
+jobs:
+  main-pr-source-policy:
+    name: Main PR source policy
+    if: ${{ github.event.pull_request.base.ref == 'main' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Validate source branch for main
+        run: |
+          if [[ "${{ github.event.pull_request.head.ref }}" != "dev" ]]; then
+            echo "::error::PRs com destino a main devem obrigatoriamente sair da branch dev."
+            exit 1
+          fi
+
+  version-history-check:
+    name: Version history check
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Validate version history updates
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+        run: bash scripts/check-version-history.sh "$BASE_SHA" "$HEAD_SHA"
