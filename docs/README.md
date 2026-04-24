@@ -5,9 +5,12 @@
 **Entrega**: 02 — Modelagem<br>
 **Período**: abril de 2026<br>
 
-<div class="tech-grid" style="grid-template-columns: repeat(3, 1fr); margin-top: 1rem;">
+<div class="tech-grid" style="grid-template-columns: repeat(2, 1fr); margin-top: 1rem;">
   <a href="https://github.com/UnBArqDsw2026-1-Turma01/2026.1-T01-_G7_MonitoreSeuTreino_Entrega_02" target="_blank" class="tech-item" style="text-decoration: none; justify-content: center; cursor: pointer;">
     <strong>Repositório GitHub</strong>
+  </a>
+  <a href="anexos/Apresenta%C3%A7%C3%A3o_G7_MonitoreSeuTreino_Entrega_02.pdf" target="_blank" class="tech-item" style="text-decoration: none; justify-content: center; cursor: pointer;">
+    <strong>Apresentação da Entrega (PDF)</strong>
   </a>
   <a href="#/Modelagem/2.Modelagem" class="tech-item" style="text-decoration: none; justify-content: center; cursor: pointer;">
     <strong>Módulo de Modelagem</strong>
