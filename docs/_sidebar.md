@@ -25,7 +25,9 @@
   - **2.5. Iniciativas Extras**
     - [Visão Geral](Modelagem/2.5.IniciativasExtras.md)
     - [2.5.7. Atas de Reunião](Modelagem/2.5.7.AtasReuniao.md)
-    - [Ata 01 (PDF)](anexos/atas/ata_reuniao_20_04.pdf ':ignore')
+    - [Ata 01 — Planejamento (PDF)](anexos/atas/ata_reuniao_20_04.pdf ':ignore')
+    - [Ata 02 — Responsabilidades (PDF)](anexos/atas/ata_responsabilidades_20_04.pdf ':ignore')
+    - [Ata 03 — Consolidação (PDF)](anexos/atas/ata_consolidacao_modelagem.pdf ':ignore')
 
 <!--
 ## Histórico de Versão
