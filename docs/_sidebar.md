@@ -13,8 +13,11 @@
   - **2.2. Modelagem UML Dinâmica**
     - [Visão Geral](Modelagem/2.2.ModelagemDinamica.md)
 
-  - **2.3. Modelagem UML Organizacional / Casos de Uso**
-    - [Visão Geral](Modelagem/2.3.ModelagemOrganizacionalCasosDeUso.md)
+  - **2.3.1. Modelagem UML Organizacional / Casos de Uso**
+    - [Visão Geral](Modelagem/2.3.1.ModelagemOrganizacionalCasosDeUso.md)
+
+  - **2.3.2. Modelagem UML Organizacional / Pacotes**
+    - [Visão Geral](Modelagem/2.3.2.ModelagemOrganizacionalPacotes.md)
 
   - **2.4. Participações**
     - [Visão Geral](Modelagem/2.4.ParticipacoesModelagem.md)
